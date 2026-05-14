@@ -683,7 +683,7 @@
       const photoCount = 7; 
       const grid = document.querySelector('.gallery-grid');
       grid.innerHTML = '';
-      for (len i = 1; i <= photoCount; i++) {
+      for (let i = 1; i <= photoCount; i++) {
         grid.innerHTML += `<div class="gallery-item"><img src="photos/photo(${i}).JPG" alt=""></div>`;
       }
     </script> 
